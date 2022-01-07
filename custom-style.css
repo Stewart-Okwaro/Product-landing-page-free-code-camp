@@ -1,18 +1,86 @@
-
-.logo-image{
-    width:200px;
-    height:150px;
+* {
+	margin: 0;
+	padding: 0;
 }
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url("https://previews.123rf.com/images/grafvision/grafvision1610/grafvision161000116/64105216-smoked-pork-meat-products-composition.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 1700px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
 
-body {
-  font-family: 'nunito';
-  color: white;
-  background-color: black;
-  line-height: 1.4;
-  width: 100%;
-  font-size: 1vw;
-}
+
 
 #background {
     width: 100%; 
@@ -21,88 +89,8 @@ body {
     left: 0px; 
     top: 0px; 
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
-}
-
-.stretch {
-    width:100%;
-    height:100%;
-}
-
-h1 {
-  font-size: 1.4vw;
-  color: white;
-}
-
-h2 {
-  font-size: 2vw;
-  color: white;
-}
-
-h3 {
-  font-size: 3vw;
-  color: white;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover{ 
-  text-decoration: underline;
-  filter: brightness(150%);
-  filter: drop-shadow(8px 8px 10px white);
-}
-
-
-header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  height: 19px;
-  padding: 25px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  opacity: 0.7;
   
-  z-index:5;
 }
-
-#shop {
-  margin-left: 13%;
-  margin-top: -30%;
-  display: flex; 
-  justify-content: space-between;
-  width: 75%;
-}
-
-
-#portfolio {
-  margin-left: 27%;
-  margin-top: 45%;
-  display: flex; 
-  justify-content: space-between;
-  width: 50%;
-}
-
-
-#phone-logo:hover {
-  filter: brightness(150%);
-  filter: drop-shadow(8px 8px 10px white);
-}
-
-#youtube-logo:hover {
-  filter: brightness(150%);
-  filter: drop-shadow(8px 8px 10px white);
-}
-
-#iVuDang_header_a:hover {
-  filter: brightness(150%);
-  filter: drop-shadow(8px 8px 10px white);
-}
-
 #smartfarm {
   margin-left: 0;
   margin-top: 20%;
@@ -112,7 +100,7 @@ header {
 }
 
 #storylayover {
-  background-color: black;
+  background-color:transparent;
   width: 100%;
   opacity: 0.9;
 }
@@ -168,6 +156,9 @@ header {
   }
 
 
+
+
+    
 @media only screen and (max-width: 800px){
   body {
   flex-wrap: wrap;
@@ -185,34 +176,4 @@ header {
    width: 250px;
    height: auto; 
   }
-  
-  
-  .submit {
-    width: 20%;
-    padding: 0.75rem;
-    background: royalblue;
-    color: white;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-
-  .email {
-    display: block; 
-    width: 18.5%;
-    height: 2rem;
-    padding: 0.25rem 0.75rem;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-  }
-
-  .text {
-    display: block; 
-    width: 18.5%;
-    height: 2rem;
-    padding: 0.25rem 0.75rem;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-  }
-}
+ 

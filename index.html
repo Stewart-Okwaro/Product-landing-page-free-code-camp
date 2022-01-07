@@ -1,9 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fixed Header with html and css | Collapsing Header Tutorial</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link href="custom-style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="box-area">
+		<header id="header">
+			<div class="wrapper">
+				<div class="logo">
+          
+          <img 
+          class="logo-image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfAiL6Dlpt-PZXJhdkx4CgLPVOejahdEA7w&usqp=CAU" 
+          alt="smart-pork-logo" 
+          border="0" 
+          id="header-img"
+          width="100";
+          >
+          <a href="#">Smart Pork</a>
+      
+				</div>
+        <nav id="nav-bar">
+            <a  class="nav-link" href="#inquiries"> inquiries </a> &nbsp; &nbsp; &nbsp;
+            
+            <a class="nav-link" href="#products"> Products </a> &nbsp; &nbsp; &nbsp;
+            
+            <a class="nav-link" href="#smart-farm"> Smart Farm </a> &nbsp; &nbsp; 
+            <a class="nav-link" href="#content-area">Content area </a> &nbsp; &nbsp;    
+        </nav>
+			
+			</div>
+		</header>
+		<div class="banner-area">
+			<h2>Smart Pork</h2>
+		</div>
+		<div id="content-area"class="content-area">
+			<div class="wrapper">
+				<h2>content area</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto perspiciatis suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque, magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem deserunt dolore, ea eius error ex facilis inventore ipsum minus modi nihil nostrum nulla, obcaecati porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis praesentium rerum sapiente.</p>
+			</div>
+      <section id="products">
+        <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNS9LNkGIOvbGk4UsT1uNOQPUiF0DwhsNfAA&usqp=CAU" alt="Bacon" id="image">
+        <a id="smart-pork-products" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNS9LNkGIOvbGk4UsT1uNOQPUiF0DwhsNfAA&usqp=CAU"> 
+          <h2> Bacon </h2> </a>
+        <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqnjUM9mtIaZn5B-7ZLq7lWDkdiBg4HFAmw&usqp=CAU" alt="Sausage" id="image">  
+        <a id="smart-pork-products" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqnjUM9mtIaZn5B-7ZLq7lWDkdiBg4HFAmw&usqp=CAU"> 
+        <h2> Sausage </h2></a>
+        <img src= "https://thumbs.dreamstime.com/z/high-quality-products-meat-pork-beef-package-label-template-cooking-gourmet-food-delicacy-vector-illustration-133915903.jpg" width="200px" alt="Sausage" id="image">   
+        <a id="smart-pork-products" href="https://thumbs.dreamstime.com/z/high-quality-products-meat-pork-beef-package-label-template-cooking-gourmet-food-delicacy-vector-illustration-133915903.jpg"> 
+        <h2> Pork parts</h2></a>
+        
+      </section>
+		</div>
+  	</div>
+    <section id="smart-farm">
+      <div id="storylayover" align="left" style="width: 100%; overflow: hidden">
+        <iframe width="560" 
+                id ="video" 
+                align="right" 
+                height="315" 
+                src="https://www.youtube.com/embed/sR0Fp4ygpiw" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    <h1> Our Smart Farm  </h1>
+       
+    <h2> <i> From farm to kitchen</i> <h2>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <section id="inquiries"> 
+    <div id="storylayover" align="left" style="width: 100%; overflow: hidden">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input 
+               id="text" 
+               type="text" 
+               name="text" 
+               placeholder="Have a question?" 
+               class="text" 
+               required> 
+        </input>
+  <br>
+    <input 
+               id="email" 
+               type="email" 
+               name="email" 
+               placeholder="What email would you like to be responded to?" 
+               class="email" 
+               required> 
+        </input>
+    <br>
+        <input 
+               id="submit" 
+               type="submit" 
+               value="Ask Now" 
+               class="submit">
+         </input>
+    </form>
+  </div>  
+</section>
+</footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
+
+  <!--
 
   <header id="header">
-      <h1>Smart Pork</h1>
+ 
+      
+    <nav id="nav-bar">
+        <ul>
+        <a  class="nav-link" href="#inquiries"> inquiries </a> &nbsp; &nbsp; &nbsp;
+        
+        <a class="nav-link" href="#products"> Products </a> &nbsp; &nbsp; &nbsp;
+        
+        <a class="nav-link" href="#smartfarm"> Smart Farm </a> &nbsp; &nbsp; 
+        </ul>
+  
+                
+    </nav>
+    <h1>Smart Pork</h1>
     
   <img 
        class="logo-image"
@@ -13,15 +139,7 @@
        id="header-img";
        >
    
-  <nav id="nav-bar">
-      <a  class="nav-link" href="#inquiries"> Shop </a> &nbsp; &nbsp; &nbsp;
-      
-      <a class="nav-link" href="#products"> Products </a> &nbsp; &nbsp; &nbsp;
-      
-      <a class="nav-link" href="#smartfarm"> Smart Farm </a> &nbsp; &nbsp; 
 
-              
-  </nav>
 
 
  </header>
@@ -60,14 +178,7 @@
   
   <section id="portfolio">
     
-    <!--<div id="youtube-logo" align="center" style="width: 100%; height: auto; overflow: hidden; align">
- 
-   <a id="iVuDang_YouTube_a" target="_blank" href="https://www.youtube.com/user/iVuDang"> 
-   <img src="https://pngimg.com/uploads/youtube/youtube_PNG2.png" alt="youtube-logo" width= "10%";>
-   </a>
-    <h2> YouTube Videos </h2>
-          <p> See my videos on youtube.com/iVuDang</p>
-    </div>-->
+
     
     <div id="phone-logo" align="center" style="width: 100%; height: auto; overflow: hidden">
 <br>
@@ -78,15 +189,7 @@
 <br> 
 <br>
 <br> 
-   <a id="iVuDang_GitHub_a" target="_blank" href="https://github.com/ivudang"> 
-    <img src="https://i.imgur.com/6nLiGv3.png" 
-    alt="phone-logo" width= "10%";>
-   </a>
-      
-    <h2> Software Projects </h2> 
-   <p> See my projects on github.com/iVuDang</p>
-    </div>
-    
+
   </section>
 
   
@@ -150,3 +253,4 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>
+-->
